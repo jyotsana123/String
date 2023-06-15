@@ -20,6 +20,7 @@ public class StringCharCount {
 				hm.put(a, 1);
 			}
 		}
+		//System.out.println(hm);
 		
 		for(Entry<Character, Integer> duplicateChar:hm.entrySet())
 		{
